@@ -1,0 +1,72 @@
+body {
+    background-image: linear-gradient( to right, rgb(207, 207, 226), rgb(125, 178, 199), rgb(208, 208, 230) ) ;
+    font-family: 'Didact Gothic', sans-serif;
+ }
+
+ section {
+    margin-left: 15%;
+    text-align:center ;
+    margin-right: 15%; 
+    font-family: 'Didact Gothic', sans-serif;
+    background-color:rgb(186, 186, 228);
+    border-radius: 5%;
+ }
+
+#cabeçalho {
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    background-image: linear-gradient(rgb(171, 171, 202) ,rgb(144, 135, 194) ,rgb(173, 170, 218));
+}
+
+.intro {
+    font-family: 'Didact Gothic', sans-serif;
+    border-radius: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center; 
+    background-image: linear-gradient(rgb(171, 171, 202) ,rgb(144, 135, 194) ,rgb(173, 170, 218));
+}
+
+.titulo {
+    font-size:400%
+}
+
+.sumary {
+    list-style-position: inside;
+}
+
+.sumaryRef {
+    text-decoration: none;
+}
+
+.tituli {
+    font-size: 250% ;
+}
+
+.capa {
+    width: 25% ;
+}
+
+td, th {
+    font-size:85% ;
+    padding: .7em;
+    margin: 0;
+    text-align: center;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #726eb4;
+}
+
+th{
+    font-weight:bold;
+    background-color: rgb(76, 117, 212);
+}
+
+table{
+    padding-top: 30px;
+    width: 100%;
+    margin-bottom : .5em;
+    table-layout: fixed;
+    text-align: center;
+}

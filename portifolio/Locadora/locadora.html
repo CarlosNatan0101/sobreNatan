@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Locadora Poggers</title>
+    <link rel="shortcut icon" href="img/pipoca.png">
+    <meta charset="UTF-8">
+    <meta name="viemport" content="width=device-width, initial-scale=1">
+   <!--<link rel="stylesheet" type="text/css" href="style.css">-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous"> 
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" 
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" 
+    crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" 
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" 
+    crossorigin="anonymous"></script> 
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-lg bg-light">
+		<div class="container-fluid">
+			
+			<img style="width:4%;" src="img/pipoca.png">
+			<a style="font-size: 40px;" class="navbar-brand" href="#topo">Locadora Poggers</a>
+	
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a  style="margin-left: 450px;" class="nav-link active" href="#tabFilmes">Filmes Disponíveis</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#drop" id="dropGeneros" role="button" data-bs-toggle="dropdown" > Filmes por Categoria </a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<li><a class="dropdown-item" href="#gAcao">Ação		</a></li>
+							<li><a class="dropdown-item" href="#gAnim">Animação	</a></li>
+							<li><a class="dropdown-item" href="#gRom">Romance	</a></li>
+							<li><a class="dropdown-item" href="#gSus">Suspense	</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#cadFilmes">Cadastrar Filme</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+  
+   <div class="container">
+        <table class="table table-striped table- hover">
+            <thead>
+                <tr>
+                    <th scope="col">Código</th>
+                    <th scope="col">Título</th>
+                    <th scope="col">Diretor</th>
+                    <th scope="col">Lançamento</th>
+                    <th scope="col">Gênero</th>
+                    <th scope="col">Ator/Atriz Prin.</th>
+                    <th scope="col">IMDb</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="text-center table-primary" colspan="7" id="gDrama">Drama</th>
+                </tr> 
+
+                <tr>    
+                    <th scope="row">1</th>
+                        <td>Um Sonho de Liberdade</td>
+                        <td>Frank Darabont</td>
+                        <td>17 de março de 1995	Drama</td>
+                        <td>Drama</td>
+                        <td>Morgan Freeman</td>
+                        <td>9,3/10</td>
+                </tr>
+
+                <tr>    
+                    <th scope="row">2</th>
+                        <td>O Poderoso Chefão </td>
+                        <td>Francis Ford Coppola</td>
+                        <td>7 de julho de 1972</td>
+                        <td>Drama</td>
+                        <td>Al Pacino</td>
+                        <td>9,2/10</td>
+                </tr>
+
+                <tr>    
+                    <th scope="row">3</th>
+                        <td>A Lista de Schindler</td>
+                        <td>Steven Spielberg</td>
+                        <td>31 de dezembro de 1993</td>
+                        <td>Drama</td>
+                        <td>Liam Neeson	</td>
+                        <td>9,0/10</td>
+                </tr>
+
+                <tr>    
+                    <th scope="row">4</th>
+                        <td>Harriet</td>
+                        <td>Kassy Lemmons</td>
+                        <td>2019</td>
+                        <td>Drama</td>
+                        <td>Cyntia Errivo</td>
+                        <td>6,6/10</td>
+                </tr>
+
+                <tr>    
+                    <th scope="row">5</th>
+                        <td>A Vida Depois</td>
+                        <td>Megan Park</td>
+                        <td>2021</td>
+                        <td>Drama</td>
+                        <td>Jenna Ortega</td>
+                        <td>7,1/10</td>
+                </tr>
+
+                <tr>
+                    <th class="text-center table-primary" colspan="7" id="gComedia">Comédia</th>
+                </tr>
+
+                <tr>    
+                    <th scope="row">6</th>
+                        <td>Pulp Fiction: Tempo de Violência</td>
+                        <td>Quentin Tarantino</td>
+                        <td>18 de fevereiro de 1995</td>
+                        <td>Comédia</td>
+                        <td>Jhon Travolta</td>
+                        <td>8,9/10</td>
+                </tr>
+
+                <tr>    
+                    <th scope="row">7</th>
+                        <td>Apertem os Cintos, o Piloto Sumiu</td>
+                        <td>Jim Abrahams, David Zucker, Jerry Zucker</td>
+                        <td>26 de dezembro de 1980</td>
+                        <td>Comédia</td>
+                        <td>Robert Hays</td>
+                        <td>7,7/10</td>
+                </tr>
+
+                <tr>    
+                    <th scope="row">8</th>
+                        <td>Os Caça-Fantasmas</td>
+                        <td>Ivan Reitman</td>
+                        <td>20 de dezembro de 1984</td>
+                        <td>Comédia</td>
+                        <td>Bill Murray</td>
+                        <td>7,8/10</td>
+                </tr>
+
+                <tr>    
+                    <th scope="row">9</th>
+                        <td>Ghostbusters: Mais Alem</td>
+                        <td>Jason Reitman</td>
+                        <td>2021</td>
+                        <td>Comédia</td>
+                        <td>Carrie Coon</td>
+                        <td>7,1/10</td>
+                </tr>
+
+                <tr>    
+                    <th scope="row">10</th>
+                        <td>Minha Mãe é Uma Peça 3</td>
+                        <td>Susana Garcia</td>
+                        <td>2019</td>
+                        <td>Comédia</td>
+                        <td>Paulo Gustavo</td>
+                        <td>8,7/10</td>
+                </tr>
+
+                <tr>
+                    <th class="text-center table-primary" colspan="7" id="gAção">Ação</th>
+                </tr>
+
+                <tr>    
+                    <th scope="row">11</th>
+                        <td>Batman: O Cavaleiro das Trevas</td>
+                        <td>Christopher Nolan</td>
+                        <td>18 de julho de 2008</td>
+                        <td>Ação</td>
+                        <td>Christian Bale</td>
+                        <td>9,0/10</td>
+                </tr>
+
+                <tr>    
+                    <th scope="row">12</th>
+                        <td>O Império Contra-Ataca</td>
+                        <td>Irvin Kershner</td>
+                        <td>21 de julho de 1980</td>
+                        <td>Ação</td>
+                        <td>Mark Hamill</td>
+                        <td>8,7/10</td>
+                </tr>
+
+                <tr>    
+                    <th scope="row">13</th>
+                        <td>Matrix</td>
+                        <td>Lana Wachowski, Lilly Wachowski</td>
+                        <td>21 de maio de 1999</td>
+                        <td>Ação</td>
+                        <td>Keanu Reeves</td>
+                        <td>8,7/10</td>
+                </tr>
+
+                <tr>    
+                    <th scope="row">14</th>
+                        <td>Esquadrão Secreto</td>
+                        <td>Henry Jost</td>
+                        <td>2022</td>
+                        <td>Ação</td>
+                        <td>Owen Wilson</td>
+                        <td>5,0/10</td>
+                </tr>
+
+                <tr>    
+                    <th scope="row">15</th>
+                        <td>Homem Aranha:Sem Volta Pra Casa</td>
+                        <td>Jhon Watts</td>
+                        <td>2021</td>
+                        <td>Ação</td>
+                        <td>Tom Holland</td>
+                        <td>8,1/10</td>
+                </tr>
+
+                <tr>
+                    <th class="text-center table-primary" colspan="7" id="gSuspense">Suspense</th>
+                </tr>
+
+                <tr>    
+                    <th scope="row">10</th>
+                        <td>Cidade De Deus</td>
+                        <td>Fernando Meirelles, Kátia Lund</td>
+                        <td>30 de agosto de 2002</td>
+                        <td>Suspense</td>
+                        <td>Alexandre Rodrigues</td>
+                        <td>8,6/10</td>
+                </tr>
+
+                <tr>    
+                    <th scope="row">11</th>
+                        <td>Garota Exemplar	</td>
+                        <td>David Fincher</td>
+                        <td>2 de outubro de 2014</td>
+                        <td>Suspense</td>
+                        <td>Rosamund Pike</td>
+                        <td>8,1/10</td>
+                </tr>
+
+                <tr>    
+                    <th scope="row">12</th>
+                        <td>Corra! </td>
+                        <td>Jordan Peele</td>
+                        <td>18 de maio de 2017</td>
+                        <td>Suspense</td>
+                        <td>Daniel Kaluuya</td>
+                        <td>8,6/10</td>
+                </tr>
+
+                <tr>    
+                    <th scope="row">13</th>
+                        <td>O Telefone Preto</td>
+                        <td>Scott Derickson</td>
+                        <td>2021</td>
+                        <td>Suspense</td>
+                        <td>Mason Themes</td>
+                        <td>7,0/10</td>
+                </tr>
+
+                <tr>    
+                    <th scope="row">14</th>
+                        <td>Rogai Por Nós</td>
+                        <td>Evan Spillotopoulos</td>
+                        <td>2019</td>
+                        <td>Suspense</td>
+                        <td>Cricket Brown</td>
+                        <td>5,1/10</td>
+                </tr>
+
+                <tr>
+                    <th class="text-center table-primary" colspan="7" id="gRomance">Romance</th>
+                </tr>
+
+                <tr>    
+                    <th scope="row">15</th>
+                        <td>Dirty Dancing: ritmo quente	</td>
+                        <td>Emile Ardolino</td>
+                        <td>25 de setembro de 1987</td>
+                        <td>Romance</td>
+                        <td>Jennifer Grey, Patrick Swayze</td>
+                        <td>7,0/10</td>
+                </tr>
+
+                <tr>    
+                    <th scope="row">16</th>
+                        <td>Ghost: do outro lado da vida</td>
+                        <td>Jerry Zucker</td>
+                        <td>1 de novembro de 1990</td>
+                        <td>Romance</td>
+                        <td>Demi Moore, Patrick Swayze</td>
+                        <td>7,1/10</td>
+                </tr>
+
+                
+                <tr>    
+                    <th scope="row">17</th>
+                        <td>Amor à segunda vista</td>
+                        <td>Marc Lawrence</td>
+                        <td>12 de dezembro de 2002</td>
+                        <td>Romance</td>
+                        <td>Sandra Bullock</td>
+                        <td>6,1/10</td>
+                </tr>
+
+                 
+                <tr>    
+                    <th scope="row">18</th>
+                        <td>Continência Ao Amor</td>
+                        <td>Elizabeth Allen</td>
+                        <td>2021</td>
+                        <td>Romance</td>
+                        <td>Sofia Carson</td>
+                        <td>8,2/10</td>
+                </tr>
+
+                 
+                <tr>    
+                    <th scope="row">19</th>
+                        <td>Amor De Redenção</td>
+                        <td>D.J. Caruso</td>
+                        <td>2021</td>
+                        <td>Romance</td>
+                        <td>Abigail Cowen</td>
+                        <td>7,1/10</td>
+                </tr>
+
+                <tr>
+                    <th class="text-center table-primary" colspan="7" id="gAnimacao">Animação</th>
+                </tr>
+                
+                <tr>    
+                    <th scope="row">20</th>
+                        <td>A Viagem de Chihiro	</td>
+                        <td>Hayao Miyazaki</td>
+                        <td>18 de julho de 2003</td>
+                        <td>Animação</td>
+                        <td>Rumi Hiiragi (voz)</td>
+                        <td>8,6/10</td>
+                </tr>
+
+                
+                <tr>    
+                    <th scope="row">21</th>
+                        <td>O Rei Leão 	</td>
+                        <td>Rob Minkoff, Roger Allers</td>
+                        <td> 8 de julho de 1994	</td>
+                        <td>Animação</td>
+                        <td>James Earl Jones (voz)</td>
+                        <td>8,5/10</td>
+                </tr>
+       
+                
+                <tr>    
+                    <th scope="row">22</th>
+                        <td>Túmulo dos Vagalumes</td>
+                        <td>Isao Takahata</td>
+                        <td>24 de novembro de 1989</td>
+                        <td>Animação</td>
+                        <td>Tsutomu Tatsumi (voz)</td>
+                        <td>8,5/10</td>
+                </tr>
+
+                <tr>    
+                    <th scope="row">23</th>
+                        <td>Minions 2: A Origem De Gru</td>
+                        <td>kyle Balda</td>
+                        <td> 2021</td>
+                        <td>Animação</td>
+                        <td>Steve Carrel (narração) </td>
+                        <td>8,5/10</td>
+                </tr>
+
+                <tr>    
+                    <th scope="row">24</th>
+                        <td>Madagascar</td>
+                        <td>Eric Darnell</td>
+                        <td>2005</td>
+                        <td>Animação</td>
+                        <td>Crhis Rock (narração)</td>
+                        <td>6,5/10</td>
+                </tr>
+                
+                <tr id="inserirTabela">
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+   </div>
+
+   <div class="m-5">
+        <hr class="border-primary border-3 opacity-75">
+    </div>
+
+    <div class="container mb-5">
+        <h2 style=" margin-top: 10%;font-size: 45px;"class="text-center">Cadastrar Novo Fime</h2>
+        <form name="cadastrar" style="margin-top: 5%;" onsubmit="event.preventDefault()">
+            <div class="row">
+
+                <!--Código-->
+                <div class="mb-3 col">
+                    <label for="codFilme" class="form-label">Código</label>
+                    <input type="text" class="form-control" id="codFilme" name="codigo">
+                </div>
+
+                <!--Data-->
+                <div class="mb-3 col">
+                    <label for="AnoFilme" class="form-label">Lançamento</label>
+                    <input  name="data" type="data" class="form-control" id="AnoFilme" placeholder="DD de MM de AAAA">
+                </div>
+            </div>
+
+            <div class="row">
+                <!--Título-->
+                <div class="mb-3 col">
+                    <label for="tituloFilme" class="form-label">Título</label>
+                    <input name="titulo" type="text" class="form-control" id="tituloFilme">
+                </div>
+
+                <!--Diretor-->
+                <div class="mb-3 col">
+                    <label for="DiretorFilme" class="form-label">Diretor</label>
+                    <input name="diretor" type="text" class="form-control" id="DiretorFilme">
+                </div>
+           
+
+                <!--Atores principais-->
+                <div class="mb-3 col">
+                    <label for="AtorAtrizFilme" class="form-label">Ator/Atriz Principal</label>
+                    <input name="ator" type="text" class="form-control" id="AtorAtrizFilme">
+                </div>
+            
+
+                <!--IMDb-->
+                <div class="mb-3 col">
+                    <label for="ImdbFilme" class="form-label">IMDb</label>
+                    <input name="imdb" type="text" class="form-control" id="IMDbFilme">
+                </div>
+            </div>
+               
+            <div class="row">
+              
+                <div class="mb-3 col form-check">
+                    <input type="radio" id="radiogeneroAcao" name="radio" class="form-check-input" value="acao">
+                    <label  name="radio" for="radiogeneroAcao" class="form label">Ação</label>
+                </div>
+
+                <div class="mb-3 col form-check">
+                    <input type="radio" id="radiogeneroDrama" name="radio" class="form-check-input" value="drama">
+                    <label   name="radio" for="radiogeneroDrama" class="form label">Drama</label>
+                </div>
+
+                <div class="mb-3 col form-check">
+                    <input type="radio" id="radiogeneroComedia" name="radio" class="form-check-input" value="comedia">
+                    <label  name="radio" for="radiogeneroComedia" class="form label">Comédia</label>
+                </div>
+
+                <div class="mb-3 col form-check">
+                    <input type="radio" id="radiogeneroSuspense" name="radio" class="form-check-input" value="suspense">
+                    <label   name="radio"for="radiogeneroSuspense" class="form label">Suspense</label> 
+                </div>
+
+                <div class="mb-3 col form-check">
+                    <input type="radio" id="radiogeneroRomance" name="radio" class="form-check-input" value="romance">
+                    <label  name="radio" for="radiogeneroRomance" class="form label">Romance</label>
+                </div>
+
+                <div class="mb-3 col form-check">
+                    <input type="radio" id="radiogeneroAnimacao" name="radio" class="form-check-input" value="animacao">
+                    <label  name="radio" for="radiogeneroAnimacao" class="form label">Animação</label>
+                </div>
+            </div>
+
+
+            <div class="sendButton">
+                <button type="submit" class="btn btn-primary mb-3">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

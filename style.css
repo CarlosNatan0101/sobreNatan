@@ -1,0 +1,122 @@
+section {
+    background-color: rgba(152, 75, 197, 0.808);
+}
+
+.supremeBackground {
+    background-image: url(img/supreme.jpeg);
+    font-family: 'Shantell Sans', cursive;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.navbar {
+    background: rgba(105, 28, 150, 0.685);
+    backdrop-filter: blur(4.6px);
+}
+
+.navbar a {
+    color: aliceblue;
+}
+
+.navbar a:hover {
+	background-color: rgba(110, 36, 153, 0.904);
+}
+
+#sobre {
+    color:aliceblue
+}
+
+.contactIcon {
+    font-size: 50px;
+    color: rgb(58, 57, 57);
+}
+
+.contactIcon:hover {
+    font-size: 65px;
+    color: black;
+}
+
+/*texto hero image*/
+
+.hero-titulo {
+    font-size: 4.5rem;
+}
+
+.hero-desc {
+    font-size: 2rem;
+} 
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+}
+
+.bgimage {
+    height: 100vh;
+    background: url('img/heroImage.jpeg');
+    background-size: cover;
+    position: relative;
+}
+
+/*imagem sobre*/
+
+.imagemSobre {
+    width :100%;
+    height: 70%;
+    border-radius: 1rem;
+}
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+}
+
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card :hover .servicesIcon {
+    color: #008000;
+}
+
+.servicesText.hover {
+    border: 1px solid #008000;
+}
+
+.hero-text {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.6px);
+    -webkit-backdrop-filter: blur(4.6px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/*.skillsBack {
+    background-image: url(img/skills.jpeg);
+    margin:auto;
+}*/
+
+.tituloSecao {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#sobre #servicos #portfolio #contato {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
